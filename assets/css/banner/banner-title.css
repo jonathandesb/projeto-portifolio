@@ -1,0 +1,39 @@
+.banner_title {
+    font-size: 4.5rem;
+    line-height: 1.125;
+    font-weight: bold;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.banner_title::before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url("../../img/detalhe.svg") no-repeat center;
+    position: absolute;
+    top: -15px;
+    left: -40px;
+    z-index: -1;
+}
+
+
+@media (max-width: 1000px) { /* Quando chegar em 1000px */
+    .banner_title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 800px) { /* Quando chegar em 800px */
+    .banner_title {
+        font-size: 2rem;
+    }
+
+    .banner_title::before {
+        width: 30px;
+        height: 10px;
+        left: 0px;
+
+    }
+}

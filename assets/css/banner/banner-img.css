@@ -1,0 +1,6 @@
+
+@media (max-width: 400px) { /* Quando chegar em 400px */
+   .banner_img {
+    display: none;
+   }
+}

@@ -1,0 +1,22 @@
+.banner {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+}
+
+@media (max-width: 800px) { /*Quando chegar em 800px*/
+    .banner {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 400px) { /*Quando chegar em 400px*/
+    .banner {
+        grid-template-columns: 1fr 
+    }
+}
