@@ -1,0 +1,7 @@
+.empresa_ano {
+    position: absolute;
+    top: 20p;
+    left: -100px;
+    color: var(--cinza);
+    font-size: 0.875rem;
+}

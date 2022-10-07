@@ -10,10 +10,21 @@
 @import url(banner/banner-description.css);
 @import url(banner/banner-img.css);
 
+@import url(experiencia/experiencia.css);
+@import url(experiencia/title-experiencia.css);
+@import url(experiencia/experiencia-description.css);
+
+@import url(empresa/empresa.css);
+@import url(empresa/empresa-title.css);
+@import url(empresa/empresa-ano.css);
+@import url(empresa/empresa-description.css);
+@import url(empresa/empresa-skill.css);
+
 :root {
     --preto: #141414;
     --branco-claro: #f5f5f5;
     --cinza: #525252;
+    --cinza-claro: #E0E0E0;
 }
 
 body {

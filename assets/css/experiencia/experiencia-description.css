@@ -1,0 +1,12 @@
+.experiencia_description {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    margin-bottom: 60px;
+    max-width: 40ch;
+    color: var(--cinza);
+}
+
+strong {
+    color: #141414;
+    font-weight: bolder;
+}

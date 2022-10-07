@@ -1,0 +1,10 @@
+.empresa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 10px 20px;
+    background: var(--branco-claro);
+    margin-bottom: 20px;
+    border-radius: 4px;
+    position: relative;
+}
