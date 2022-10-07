@@ -8,3 +8,21 @@
     border-radius: 4px;
     position: relative;
 }
+
+.empresa::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: linear-gradient(#b6f829, #67dd0a);
+    position: absolute;
+    top: 20px;
+    left: -4px;
+}
+
+@media (max-width: 800px) {
+    .empresa {
+        grid-template-columns: 1fr;
+    }
+    
+}

@@ -10,3 +10,11 @@ strong {
     color: #141414;
     font-weight: bolder;
 }
+
+
+@media (max-width: 800px) {
+    .experiencia_description {
+       font-size: 1.25rem;
+       
+    }
+}

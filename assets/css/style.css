@@ -19,6 +19,12 @@
 @import url(empresa/empresa-ano.css);
 @import url(empresa/empresa-description.css);
 @import url(empresa/empresa-skill.css);
+@import url(empresa/empresa-item.css);
+
+@import url(formação/formacao.css);
+@import url(formação/formacao-container.css);
+@import url(formação/formacao-title.css);
+@import url(formação/formacao-description.css);
 
 :root {
     --preto: #141414;

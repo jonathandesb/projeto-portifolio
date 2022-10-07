@@ -1,7 +1,20 @@
 .empresa_ano {
     position: absolute;
-    top: 20p;
+    top: 22px;
     left: -100px;
     color: var(--cinza);
     font-size: 0.875rem;
+    width: 80px;
+    text-align: right;
+}
+
+@media (max-width: 800px) {
+    .empresa_ano {
+        position: initial;
+        order: 1;
+        width: initial;
+        text-align: left;
+    }
+   
+    
 }

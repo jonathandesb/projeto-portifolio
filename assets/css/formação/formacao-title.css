@@ -1,0 +1,9 @@
+.formacao_title {
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    word-break: break-all;
+    line-height: 1;
+    max-width: 4ch;
+    color: var(--preto);
+}
