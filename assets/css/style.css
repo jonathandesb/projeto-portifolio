@@ -40,6 +40,13 @@
 @import url(idiomas/idiomas.css);
 @import url(idiomas/idiomas-title.css);
 
+@import url(../css/rodape/rodape.css);
+@import url(rodape/rodape-container.css);
+@import url(rodape/rodape-description.css);
+@import url(rodape/rodape-lista.css);
+@import url(rodape/rodape-item.css);
+@import url(rodape/rodape-direitos.css);
+
 
 :root {
     --preto: #141414;

@@ -17,3 +17,10 @@
     left: -36px;
     top: -4px;
 }
+
+@media (max-width: 800px) {
+    .idiomas_title::before {
+        position: initial;
+        margin-bottom: 10px;
+    }
+}

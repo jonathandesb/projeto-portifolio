@@ -17,3 +17,9 @@
     left: -36px;
     top: -4px;
 }
+@media (max-width: 800px) {
+    .cursos_title::before {
+        position: initial;
+        margin-bottom: 10px;
+    }
+}

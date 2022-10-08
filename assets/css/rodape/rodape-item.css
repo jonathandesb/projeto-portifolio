@@ -1,0 +1,17 @@
+.rodape_contato-item {
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.rodape_contato-item a {
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .rodape_contato-item {
+        font-size: 1.5rem;
+    }
+}

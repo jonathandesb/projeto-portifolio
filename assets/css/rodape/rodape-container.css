@@ -1,0 +1,15 @@
+.rodape_container {
+    max-width: 1200px;
+    padding: 120px 20px 60px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+@media (max-width: 800px) {
+    .rodape_container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
