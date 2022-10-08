@@ -1,0 +1,8 @@
+.faculdade_item {
+    background-color: black;
+    padding: 20px;
+    border-radius: 4px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,11 @@
+.cursos_item {
+    font-size: 1.125rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cursos_item span {
+    color: #8f8f8f;
+}

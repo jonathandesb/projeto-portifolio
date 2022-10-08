@@ -26,6 +26,22 @@
 @import url(formação/formacao-title.css);
 @import url(formação/formacao-description.css);
 
+@import url(faculdade/faculdade-item.css);
+@import url(faculdade/faculdade-curso.css);
+@import url(faculdade/faculdade-instituicao.css);
+@import url(faculdade/faculdade-lista.css);
+@import url(faculdade/faculdade-tipo.css);
+
+@import url(cursos/cursos.css);
+@import url(cursos/cursos-extra.css);
+@import url(cursos/cursos-title.css);
+@import url(cursos/cursos-lista.css);
+@import url(cursos/cursos-item.css);
+
+@import url(idiomas/idiomas.css);
+@import url(idiomas/idiomas-title.css);
+
+
 :root {
     --preto: #141414;
     --branco-claro: #f5f5f5;

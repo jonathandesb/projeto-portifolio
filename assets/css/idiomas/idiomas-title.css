@@ -1,0 +1,19 @@
+.idiomas_title {
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.idiomas_title::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../../img/idiomas.svg) no-repeat center center;
+    position: absolute;
+    left: -36px;
+    top: -4px;
+}
