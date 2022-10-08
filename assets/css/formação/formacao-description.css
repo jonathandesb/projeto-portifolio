@@ -8,3 +8,9 @@
 .formacao_description strong {
     color: white;
 }
+
+@media (max-width: 800px) {
+    .formacao_description{
+    font-size: 1.25rem;
+    }
+ }
